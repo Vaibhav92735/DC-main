@@ -22,7 +22,7 @@ function DesignBlocksp() {
         // Simulating an asynchronous data fetch operation
         // Replace this with your actual data fetching logic
         await new Promise(resolve => setTimeout(resolve, 1000));
-        setData(data1);
+        setData(data);
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
